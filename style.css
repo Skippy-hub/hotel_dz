@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.intro{
+    background: url(https://www.verobeachhotelandspa.com/images/1700-960/01-photogalleryhero-912d152d.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 948px;
+    margin-bottom: 80px;
+}
+
+.intro__detailes{
+    width: 100%;
+    max-width: 1252px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%)
+}
+
+.detailes__title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 70px;
+    width: 100%;
+    max-width: 993px;
+}
+
+.detailes__description{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 70px;
+    width: 100%;
+    max-width: 1180px;
+}
+
+.search{
+    background: rgba(255, 255, 255, 0.45);
+    padding: 30px 0;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 1223px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search__input{
+    background: #fff;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 219px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    padding: 32px 30px;
+}
+
+.location-input{
+    width: 100%;
+    max-width: 315px;
+    padding: 34px 42px;
+}
+
+.search__button{
+    background: #F99001;
+    border-radius: 12px;
+    padding: 25px 34px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin-left: 20px;
+}
+
+.heading-2 {
+    font-size: 45px;
+    color: #000000;
+}
+
+.heading-2--yellow {
+    color: #F99001;
+}
+
+.hotels__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.hotels__title {
+    width: 350px;
+}
+
+.hotels__icons {
+    display: flex;
+    gap: 30px;
+}
+
+.hotels__icons-arrow {
+    width: 61px;
+    height: 50px;
+}
+
+.hotels__items{
+    display: flex;
+    gap: 21px;
+}
+
+.hotels__card {
+    border-radius: 15px;
+    width: 33%;
+    height: 612px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 18px 30px;
+}
+
+.hotels__card--fairmont {
+    background: url(https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?ca=6&ce=1&s=414x232) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hotels__card-info {
+    background: #FFFFFF;
+    width: 100%;
+    border-radius: 20px;
+    padding: 26px 30px;
+}
+
+.hotels__card--ramses{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWcewvO2ESob6z1siAWtZ7T8aIUXV40kklsQ&s) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hotels__card--4seasons{
+    background: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,w_1000/crm/miamifl/Colony-GMCBV_283DBD1C-497F-40E1-BFC4019833A6DF29_5335ec78-cde2-49ce-bf026a6a541e9137.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.hotels__card-city{
+    color: #f99001;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.hotels__card-hotel{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.hotels__card-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotels__card-description-between{
+    border-right: 1px solid #000000;
+}
+
+.hotels__card-price{
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+.hotels__card-description-more{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.hotels__card-description-more-arrow{
+    width: 8px;
+    height: 16px;
+    color: #001A72;
+}
+
+.hotels{
+    margin-bottom: 80px;
+}
+
+.services{
+    margin-bottom: 80px;
+}
+
+.services__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 20px;
+}
+
+.services__card{
+    width: 100%;
+    max-width: 460px;
+    border-radius: 25px;
+    border: 1px solid #f99001;
+    padding: 80px 47px 50px;
+    position: relative;
+}
+
+.services__card__title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    margin-left: 50px;
+    margin-bottom: 71px;
+}
+
+.services__card__description{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27.6px;
+}
+
+.services__card-elipse{
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    background: rgba(249, 144, 1, 0.25);
+    position: absolute;
+    top: 50px;
+    left: 47px;
+}
+
+.services-title{
+    margin-bottom: 80px;
+}
+
+.rooms-title{
+    margin-bottom: 51px;
+}
+
+.rooms__photos{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.sale{
+    border-radius: 25px;
+    background: #f99001;
+    width: 460px;
+    height: 300px;
+    padding: 31px 49px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+
+.sale__title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 51.75px;
+    margin-bottom: 13px;
+}
+
+.sale__description{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.1px;
+    margin-bottom: 13px;
+}
+
+.sale__button{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #f99001;
+    background: #fff;
+    border-radius: 15px;
+    padding: 17px 32px;
+}
+
+.photos__image{
+    width: 460px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.photos__right-block > .photos__image:first-child{
+    margin-bottom: 40px;
+}
+
+.photos__midle-block{
+    height: 640px;
+}
+
+.rooms{
+    margin-bottom: 150px;
+}
+
+.save-time-money{
+    background: #f99001;
+    width: 100%;
+    max-width: 935px;
+    padding: 44px 120px 61px 115px;
+    margin: 0 auto;
+}
+
+.save-time-money__content{
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.save-time-money__content__title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 51.75px;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+.save-time-money__content__subscribe{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subscribe__input{
+    padding: 25px 30px;
+    width: 100%;
+    max-width: 460px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.7px;
+    color: #D9D9D9;
+}
+
+.subscribe__button{
+    width: 220px;
+    padding: 17px 32px;
+    background: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.save{
+    margin-bottom: 147px;
+}
